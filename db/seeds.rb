@@ -7,3 +7,7 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Noun.create(noun: "island")
+Verb.create(verb: "run")
+Adjective.create(adjective: "runty")
+InsultFormat.create(insult_format: "testing out noun verb adjective")
